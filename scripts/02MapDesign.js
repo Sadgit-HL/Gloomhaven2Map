@@ -178,7 +178,7 @@ function UnSet_Door(element) {
 function CreateZone_OverlayTiles() {
 	var html = $('<div>');
 	var container = $('<div>').addClass('overlaytile-container');
-	container.append('<h1>Corridors (co) - Walls (wa) - Terrain (ha, di) - Scenario Aids </h1>');
+	container.append('<h1>Corridors (co) - Walls (wa) - Terrain (ha, di)</h1>');
 	html.append(container);
 	html.append('<button type="button" class="btn btn-success" aria-expanded="false" onclick="AddLine_OverlayTiles();">Add Overlay Tile</button>');
 	//initialize LineClass

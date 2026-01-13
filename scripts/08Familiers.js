@@ -37,7 +37,7 @@ function ResetWindow_Familiars(FromPreFilledMaps) {
 function CreateZone_Familiars() {
 	var html = $('<div>');
 	var container = $('<div>').addClass('familiar-container');
-	container.append('<h1>Elements - Scenario Aids - Objectives</h1>');
+	container.append('<h1>Scenario aid, objectives, class tiles, elements</h1>');
 	//container.append('<div class="familiars-cards"></div>');
 	//container.append('<div class="familiars-tokenscards"></div>');
 	html.append(container);
