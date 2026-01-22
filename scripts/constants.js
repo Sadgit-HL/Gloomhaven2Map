@@ -156,7 +156,7 @@ MAP_TILES_RAW = [
 	[54, '15-B', 7, 6, 68, 117, bg],
 	[55, '16-A', 7, 8, 72, 39, bg],
 	[56, '16-B', 7, 8, 75, 39, bg],
-]
+];
 MAP_TILES_LIST = FromRAWToLIST(MAP_TILES_RAW);
 
 ANGLES_LIST = [
